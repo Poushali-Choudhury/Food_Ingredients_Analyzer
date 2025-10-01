@@ -15,14 +15,16 @@ NutriScan is an intelligent food label analysis system that uses OCR and AI to e
 
 1.  **Clone the repository**
 
-    git clone <repository-url>
+    ```bash
+    git clone https://github.com/Poushali-Choudhury/Food_Ingredients_Analyzer.git
     cd nutriscan
 
-2.  **Install Python dependencies**
-
+3.  **Install Python dependencies**
+4.  
+    ```bash
     pip install -r requirements.txt
 
-3.  **Install system dependencies**
+5.  **Install system dependencies**
 
     Tesseract OCR:
 
@@ -32,13 +34,12 @@ NutriScan is an intelligent food label analysis system that uses OCR and AI to e
 
         macOS: brew install tesseract
 
-**Usage** 1. Start the Backend Server
+**Usage** 
 
+    1. Start the Backend Server
         uvicorn app:app --reload --host 0.0.0.0 --port 8000
 
-
     2. Start the Frontend (in a new terminal)
-
         streamlit run ui.py
 
 **_Access the Application_**
