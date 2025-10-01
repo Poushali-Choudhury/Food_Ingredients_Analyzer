@@ -1,6 +1,4 @@
-# app.py
 
-import os
 import io
 import re
 import pytesseract
@@ -10,8 +8,7 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
-from typing import Dict, List, Any, Optional
-import json
+
 
 app = FastAPI()
 app.add_middleware(
