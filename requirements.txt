@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+requests
+python-dotenv
+psycopg2-binary
+SQLAlchemy==2.0.*
+pillow
+pytesseract
+easyocr
+transformers
+torch
+streamlit
+pandas
